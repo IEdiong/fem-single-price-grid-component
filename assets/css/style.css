@@ -133,30 +133,6 @@ main {
   transition: all 0.35s;
 }
 
-.cta span {
-  position: relative;
-  z-index: 2;
-}
-.cta:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 100%;
-  border-radius: 5px;
-  background: #ffffff;
-  transition: all 0.35s;
-}
-
-.cta:hover {
-  color: var(--cyan);
-}
-
-.cta:hover:after {
-  width: 100%;
-}
-
 .box-3 {
   background-color: var(--cyan-light);
   color: #ffffff;
@@ -191,5 +167,29 @@ main {
   .box-2,
   .box-3 {
     width: 50%;
+  }
+
+  .cta span {
+    position: relative;
+    z-index: 2;
+  }
+  .cta:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+    transition: all 0.35s;
+  }
+
+  .cta:hover {
+    color: var(--cyan);
+  }
+
+  .cta:hover:after {
+    width: 100%;
   }
 }
