@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Website](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-single-price-grid-using-flexbox-y5C4ZkQMV)
+- Live Site URL: [Website](https://iediong.github.io/fem-single-price-grid-component)
 
 ## My process
 
